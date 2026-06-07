@@ -1,6 +1,6 @@
 # PM Skills
 
-这个仓库用于存放可复用的产品管理类 Claude Skills。
+这个仓库用于存放可复用的互联网医疗健康类PM的Skills。
 
 ## PRD-review
 
@@ -40,14 +40,11 @@
 
 ### 1. 安装 Skill
 
-把仓库里的文件复制到你的 Claude Code 命令目录：
-
-- 源文件：`skills/PRD-review.md`
-- 目标路径：`~/.claude/commands/PRD-review.md`
+把仓库里的文件PRD-review.md复制到你所使用的AI里的Skill目录下。
 
 ### 2. 调用方式
 
-在 Claude Code 中使用：
+如果是在 Claude Code 中使用：
 
 ```text
 /PRD-review
@@ -74,7 +71,7 @@ Skill 会先让你选择进入方式：
 ### 示例 1：先走渐进式评审
 
 ```text
-/PRD-review /Users/you/Desktop/某功能PRD.md
+/PRD-review /path/to/your/某功能PRD.md
 ```
 
 ### 示例 2：让它直接给完整评审
@@ -122,5 +119,5 @@ Skill 会先让你选择进入方式：
 
 ## 说明
 
-这个仓库中的 `PRD-review` 是一个通用版、脱敏版评审 Skill。
+这个仓库中的 `PRD-review` 是一个通用版评审 Skill。
 如果你的团队有更强的行业、产品或公司背景知识，也可以在此基础上继续做定制化扩展。
